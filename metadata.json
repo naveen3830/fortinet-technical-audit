@@ -1,0 +1,6 @@
+{
+  "name": "Technical Audit Dashboard",
+  "description": "An interactive dashboard that visualizes a website's technical health report, providing a clear overview of key performance indicators, issues, and actionable next steps.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
