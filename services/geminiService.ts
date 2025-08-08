@@ -52,7 +52,7 @@ const mockReportData: ReportData = {
     {
       category: "Site Health & Structure",
       items: [
-        { parameter: "Broken internal links (404)", expectedOutcome: "0 broken links", status: "527", brag: BragStatus.Bad, remarks: "Link", remarkLink: "#" },
+        { parameter: "Broken internal links (404)", expectedOutcome: "0 broken links", status: "515", brag: BragStatus.Bad, remarks: "Link", remarkLink: "#" },
         { parameter: "Broken external links", expectedOutcome: "0 broken links", status: "658", brag: BragStatus.Bad, remarks: "Link", remarkLink: "#" },
         { parameter: "Broken backlinks", expectedOutcome: "0 broken backlinks", status: "4099", brag: BragStatus.Bad, remarks: "Link", remarkLink: "#" },
         { parameter: "Orphan page", expectedOutcome: "No orphan page", status: "0", brag: BragStatus.Good, remarks: "" },
@@ -84,7 +84,7 @@ const mockReportData: ReportData = {
   nextSteps: [
     { id: 1, task: "Improve website performance on mobile & desktop along with CVW & accessability sc", pages: "-", timeline: "4 weeks", owner: "Fortinet", remarks: "" },
     { id: 2, task: "Submitted the validated non indexed pages for indexing", pages: "177", timeline: "2 weeks", owner: "Fortinet", remarks: "" },
-    { id: 3, task: "Fix broken internal links for english pages based on categories such as blogs & cybergl", pages: "527", timeline: "4 weeks", owner: "Fortinet", remarks: "In batches" },
+            { id: 3, task: "Fix broken internal links for english pages based on categories such as blogs & cybergl", pages: "515", timeline: "4 weeks", owner: "Fortinet", remarks: "In batches" },
     { id: 4, task: "Validate & fix broken external links, prioritizing english pages", pages: "658", timeline: "4 weeks", owner: "Fortinet", remarks: "In batches" },
     { id: 5, task: "Validate & set a 301 URL redirection for broken backlinks", pages: "476", timeline: "4 weeks", owner: "Fortinet", remarks: "" },
     { id: 6, task: "Fix the canonical for https://www.fortinet.com/resources/pharma for english & non-eng", pages: "10", timeline: "1 week", owner: "Fortinet", remarks: "" },
